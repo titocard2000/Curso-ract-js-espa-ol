@@ -4,7 +4,7 @@ class MiComponente extends Component{
     render(){
         let receta={
             nombre: 'Pizza',
-            ingredientes:['tomates', 'queso', 'Jamon cocido'],
+            ingredientes:['tomates', 'queso','harina', 'Jamon cocido'],
             calorias:400
         };
         return (
