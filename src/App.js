@@ -6,13 +6,14 @@ import './assets/css/App.css';
 import MiComponente from './component/MiComponente';
 
 function HelloWorld (name,edad,est_civil,año){
-  var presentacion=
+  var presentacion=(
     <div>
       <h2>Hola, soy {name}</h2>
       <h3>Tengo {edad} años</h3>
-      <h4> soy {est_civil}</h4>
+      <h4> soy {est_civil} todavia</h4>
       <h4> naci en {año}</h4>
-    </div>;
+    </div>
+    );
   return presentacion;
 }
 
@@ -37,7 +38,7 @@ function App() {
           <section className="componentes">
             <MiComponente/>
         
-        </section>  
+          </section>  
       </header>
       
     </div>
