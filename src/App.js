@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './assets/images/logo.svg';
+import image2 from './assets/images/news4.jpg';
 import './assets/css/App.css';
 // Importar Componentes
 
@@ -25,6 +26,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={image2}  className="App-images" alt="imagen" />
         <p>
           Hola, Bienvenido Raul Cardozo!!!
         </p>
